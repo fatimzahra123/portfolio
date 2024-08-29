@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/
+    boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+      <header class="header">
+         <a href="#home" class="logo" >fatimazahraa
+            <span>EL-ONSORY</span></a> 
+
+            <i class="bx bx-menu" id="menu-icons">
+                 <span></span>
+                 <span></span>
+            </i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+      </header>
+
+     <section class="home" id="home">
+         <div class="home-content">
+             <h1>Hi, I'm <span>Fatimazahraa</span></h1>
+             <p>I'm a freelance web developer, graphic designer, and aspiring artist.</p>
+
+            <div class="social-icons">
+                 <a href="https://www.linkedin.com/in/el-onssry-fatimzahra-5630a82aa/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAARdJREFUOE/V1LsvBVEQx/HP/Qs09BqPEDUJ8Wh0CkRHQnNbeo34NzQkSsQj0aiQSHQKiUai9g6JSmNPMuTcLcjKVTjJJjOzZ74z8zt7tqZJq9Ykjhw0j2VcYKZqgRx0g/YAzGGzCiwH7WMikgdx9ltQgqbxrnFaBZL25h31oi0A54Ve7xgK/zYKjKEfr4UM63j5LJiDtjAdLzrwgOfwD0O/nqzTSwzgrdzRDiZjY1eAHn8YsY61MmgbU5HYGaCnDLSA3cJfKTpdjPhG6Nqg0XegNEZfJHfjKuyj4nTHq3R0jNFIbsV92F/xXOxco1Q1iZ2etE4wEnY62bv/BVrFcLQ8Gx/bQfjpIi+F3YK9cvxPfiNVr1fD/g+c6EMTiiyKSgAAAABJRU5ErkJggg=="/></a>
+                 <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAM9JREFUOE/t1D1KQ0EUxfFfSgvBKo12biKl2IQ0Vi4grWBhNhBiZapYZAOp06VLZwr3YOEaLARBEATfwJV8wGPm4Su9cGGKOf85c+YyHS1VpyWOElAXN+jhCIvoPQ85UBK+4nRHdV+tJ4c3yYGusArREi/YRDdydIt5KE7wXpdpztEIsxAf46MpaIjUZzgP8TO+Ma2CX5dmlAId15x+iadS0EUVaOr05P0QPeArMnsrBf3uu8PjXzL6B20jzw3kNdJ0pxrgs+lANv5dco6KgT+4VCITNpyNAQAAAABJRU5ErkJggg=="/></a>
+                 <a href="https://www.instagram.com/fatimzahra_onsry/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAZZJREFUOE+t1M+LT2EUx/HXhH+BhK2FkpipaVASJUKTkslGJlJjpSyUn0nWUppIKWpmmIX8KJmFZpJpikzZ2kikWLAXM8+p863bM99vSt+7ee597rnv55zP55zbo0tXT5c4atAynMJWrO1wyBe8wR38acU0QXH/Cr14jo9YqGARswH7MYtd7UBHcQub8alDNiOZxRmswwmMR2wzo/v4jrMNyLbMMEp4j994i9O5vxzHatALvMSNBD3LEr5iBVbiJ/aW0vuwKtd9NWgGY7iNfsxhsJT6JMGHiz6PsAXzZe9KOXgAe2rQazxIN8K5CFzdKDNk+IFzxdG7uIQdLcGbGk1jMgUP0GWsaTgXsd9wIUGxhms764wC9LDUPppCvsMhPM6sjmCiPG8q+x/yoOi3JaVNZf/czA+vFqsvoin2eVzP99cSeqDOKOr+Vdkfwm7P3okGDJFbV8RHw56sQUPp2EZ8/scMrk/ocMqxZNZaI3Ivs2vHi346nvO2u92IxF4MbYzBwWzCdqDo7qfp7t9OoP/+q3Ttf7QI7wVPE7+bv4QAAAAASUVORK5CYII="/></a>
+                 <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAR5JREFUOE+1078rhlEUwPHP+w8gJln8+AtEKaWkLCySzWKxCyViUwwMyj8gm8UkGwsLsZgsKKvBYHlRPE89T92u++oZ3vcut27nfM/33nNuTZNWrUkcLQEN4w4/CcsxbGMIz9jEIwZwlseHRvd4xTw+AlhbkdwZFXjDegY7zvZ6CLrGKB4wXUDz3HFcJiw/MYPz2GgFe0XCdwa7xRW+sJEA5YCp8jw0Ws6utIruip08wkIKtIu1ipA8bAkHKVAPDot7V+H1ZUYvKVBZZQtxh2LwKWbDw3ggu7IHvEH/P0rvGAxt4q6FljsN3qtedOoiLlQatRcz1IsJzCWMnrCIP5DYaAT5LE2iIwDlE7+Pk+xr5POVXC35tFVa3jCmaUa/NC4uE+orOBYAAAAASUVORK5CYII="/></a>
+ 
+            </div>
+            
+             <div class="btn-group">
+                <a href="#about" class="btn">More</a>
+                <a href="#contact" class="btn">Contact Me</a>
+             </div>
+         </div>
+
+         <div class="home-img">
+             <img src="c:\Users\DELL\Documents\imacabstg\projet4\img1portfolio-.png" alt="">
+         </div>
+     </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div> 
+                    <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h3> Baccalaureate</h3>
+                            <p>I have achieved my Bachelor's degree in Physical Sciences with high honors. 
+                                This achievement reflects my dedication and strong performance in the field.</p>
+                        </div> 
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                        <div class="timeline-content">
+                           <h3> University</h3>
+                           <p>At the Faculty of Sciences Ibn Tofail in Kenitra, Morocco, I specialized in Mathematics and Computer Science.
+                             This academic choice reflects my keen interest and dedication to advancing in the field of computer science.</p>
+                        </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h3>University</h3>
+                            <p>I completed my DEUG in Mathematical Sciences and Computer Science with a "Fairly Good" mention.</p>
+                        </div> 
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div> 
+                    <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                           <h3>internship</h3>
+                           <p>Currently, I am completing an internship in the IT department of a company.
+                            This experience allows me to apply my theoretical knowledge, develop new technical skills.</p>
+                        </div>
+            </div>
+        </div>
+
+    </section> 
+
+    <section class="skills" id="skills">
+        <div class="skills-box">
+             <h2 class="heading">Skills</h2>
+
+             <div class="skills-content">
+                  <div class="skill-item">
+                      <img src="c:\Users\DELL\Documents\imacabstg\projet4\camera.jpg" alt="">
+                      <h3>Photographie</h3>
+                      <p>I have a proven ability to capture stunning photos with my camera. I am skilled at capturing landscapes, portraits, and adventure scenes.</p>
+                      <input type="submit" value="En savoir plus" class="btn">
+                  </div>
+
+                  <div class="skill-item">
+                      <img src="c:\Users\DELL\Documents\imacabstg\projet4\Black design.png" alt="">
+                      <h3>Graphic Design</h3>
+                      <p>I am proficient in creating engaging and visually appealing designs for various mediums, such as websites, blogs, and social media platforms.</p>
+                      <input type="submit" value="En savoir plus" class="btn" >
+                  </div>
+
+                  <div class="skill-item">
+                      <img src="c:\Users\DELL\Documents\imacabstg\projet4\reading.jpg" alt="">
+                      <h3>Reading</h3>
+                      <p>I have a keen interest in reading various books, both fiction and non-fiction. I enjoy immersing myself in different genres and sharing my knowledge with others.</p>
+                      <input type="submit" value="En savoir plus" class="btn">
+                  </div>
+             </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <p><span><b>Hello !</b></span> I'm Fatimazahraa, a passionate student currently studying Computer Science at IBN TOFEIL University. My journey in tech began with a deep fascination for how things work and a love for problem-solving. As I delve into the world of coding and technology, I am constantly inspired by the endless possibilities for innovation.
+                I am particularly enthusiastic about exploring new ideas and learning about cutting-edge technologies. <br><br>
+                Thank you for visiting my page, and I look forward to connecting with like-minded individuals and exploring new opportunities!</p>
+        </div>
+    
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+        
+        <form id="contact-form" >
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email"  placeholder="Email" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <input type="text" name="subject"  placeholder="Subject" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" ></textarea>
+                <input type="submit" value="Send" class="btn" onclick="sendEmail()">
+            </div>
+            
+        </form>
+    
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+                 <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAARdJREFUOE/V1LsvBVEQx/HP/Qs09BqPEDUJ8Wh0CkRHQnNbeo34NzQkSsQj0aiQSHQKiUai9g6JSmNPMuTcLcjKVTjJJjOzZ74z8zt7tqZJq9Ykjhw0j2VcYKZqgRx0g/YAzGGzCiwH7WMikgdx9ltQgqbxrnFaBZL25h31oi0A54Ve7xgK/zYKjKEfr4UM63j5LJiDtjAdLzrwgOfwD0O/nqzTSwzgrdzRDiZjY1eAHn8YsY61MmgbU5HYGaCnDLSA3cJfKTpdjPhG6Nqg0XegNEZfJHfjKuyj4nTHq3R0jNFIbsV92F/xXOxco1Q1iZ2etE4wEnY62bv/BVrFcLQ8Gx/bQfjpIi+F3YK9cvxPfiNVr1fD/g+c6EMTiiyKSgAAAABJRU5ErkJggg=="/></a>
+                 <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAM9JREFUOE/t1D1KQ0EUxfFfSgvBKo12biKl2IQ0Vi4grWBhNhBiZapYZAOp06VLZwr3YOEaLARBEATfwJV8wGPm4Su9cGGKOf85c+YyHS1VpyWOElAXN+jhCIvoPQ85UBK+4nRHdV+tJ4c3yYGusArREi/YRDdydIt5KE7wXpdpztEIsxAf46MpaIjUZzgP8TO+Ma2CX5dmlAId15x+iadS0EUVaOr05P0QPeArMnsrBf3uu8PjXzL6B20jzw3kNdJ0pxrgs+lANv5dco6KgT+4VCITNpyNAQAAAABJRU5ErkJggg=="/></a>
+                 <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAZZJREFUOE+t1M+LT2EUx/HXhH+BhK2FkpipaVASJUKTkslGJlJjpSyUn0nWUppIKWpmmIX8KJmFZpJpikzZ2kikWLAXM8+p863bM99vSt+7ee597rnv55zP55zbo0tXT5c4atAynMJWrO1wyBe8wR38acU0QXH/Cr14jo9YqGARswH7MYtd7UBHcQub8alDNiOZxRmswwmMR2wzo/v4jrMNyLbMMEp4j994i9O5vxzHatALvMSNBD3LEr5iBVbiJ/aW0vuwKtd9NWgGY7iNfsxhsJT6JMGHiz6PsAXzZe9KOXgAe2rQazxIN8K5CFzdKDNk+IFzxdG7uIQdLcGbGk1jMgUP0GWsaTgXsd9wIUGxhms764wC9LDUPppCvsMhPM6sjmCiPG8q+x/yoOi3JaVNZf/czA+vFqsvoin2eVzP99cSeqDOKOr+Vdkfwm7P3okGDJFbV8RHw56sQUPp2EZ8/scMrk/ocMqxZNZaI3Ivs2vHi346nvO2u92IxF4MbYzBwWzCdqDo7qfp7t9OoP/+q3Ttf7QI7wVPE7+bv4QAAAAASUVORK5CYII="/></a>
+                 <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAR5JREFUOE+1078rhlEUwPHP+w8gJln8+AtEKaWkLCySzWKxCyViUwwMyj8gm8UkGwsLsZgsKKvBYHlRPE89T92u++oZ3vcut27nfM/33nNuTZNWrUkcLQEN4w4/CcsxbGMIz9jEIwZwlseHRvd4xTw+AlhbkdwZFXjDegY7zvZ6CLrGKB4wXUDz3HFcJiw/MYPz2GgFe0XCdwa7xRW+sJEA5YCp8jw0Ws6utIruip08wkIKtIu1ipA8bAkHKVAPDot7V+H1ZUYvKVBZZQtxh2LwKWbDw3ggu7IHvEH/P0rvGAxt4q6FljsN3qtedOoiLlQatRcz1IsJzCWMnrCIP5DYaAT5LE2iIwDlE7+Pk+xr5POVXC35tFVa3jCmaUa/NC4uE+orOBYAAAAASUVORK5CYII="/></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+         <p class="copyright">
+            &copy; 2024 Fatimazahraa. All rights reserved </a>
+         </p> 
+    
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="valid.js"></script>
+</body>
+</html>
